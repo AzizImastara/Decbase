@@ -248,6 +248,73 @@ nav ul li a{
     color: #fff;
     font-weight: 600;
 }
+/* Content6 */
+.container-enam{
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.container-enam h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #212121;
+}
+.line{
+    width: 400px;
+    border: 1px solid #C4C4C4;
+    margin: 20px auto;
+}
+.container-enam p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.address input{
+    width: 672px;
+    border-radius: 15px 0 0 0;
+    background-color: #eeeeee;
+}
+.address ::placeholder{
+    font-size: 18px;
+    color: #646464;
+}
+.green6{
+    background-color: #37806B;
+    border-radius: 0 0 15px 0;
+    width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.green6 p{
+    color: #fff;
+    font-weight: 600;
+}
+/* Content7 */
+.container-tujuh{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.page1, .page2, .page3, .page4, .page5{
+    flex-direction: column;
+}
+.container-tujuh h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 14px;
+    margin-top: 5px;
+}
+.container-tujuh p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464;
+}
 /* Responsive */
 @media(max-width: 1000px){
     .menu{
@@ -273,5 +340,17 @@ nav ul li a{
     /* content5 */
     .container-lima{
         flex-direction: column;
+    }
+    /* content6 */
+    .line{
+        width: 100%;
+    }
+    .green6{
+        width: 100%;
+    }
+    /* content7 */
+    .container-tujuh{
+        flex-direction: column;
+        align-items: center;
     }
 }
